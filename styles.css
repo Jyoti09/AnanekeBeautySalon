@@ -15,7 +15,13 @@ span{
 	margin: 100px 50px 100px 50px;
 	font-size: 30px;
 }
+section{
+	background:lightblue;
+}
 
+footer{
+	background: lightblue
+}
 a{
 	text-decoration:none;
 }
