@@ -1,3 +1,11 @@
+body{
+	background:lightgray;
+}
+header{
+	text-align:center;
+	color: goldenrod;
+	background:black
+}
 img{
 	width:300px;
 }
