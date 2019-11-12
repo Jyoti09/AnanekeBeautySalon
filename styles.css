@@ -3,9 +3,22 @@ body{
 }
 header{
 	text-align:center;
-	color: goldenrod;
-	background:black
+	color: black;
+	background:lightblue;
 }
 img{
 	width:300px;
 }
+
+span{
+	background: lightblue;
+	margin: 100px 50px 100px 50px;
+	font-size: 30px;
+}
+
+a{
+	text-decoration:none;
+}
+a:hover{
+	background: darkcyan;
+	}
