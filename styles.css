@@ -1,29 +1,37 @@
 body{
-	background:lightgray;
+	background:whitesmoke;
+	margin:0;
+	padding:0;
 }
 header{
 	text-align:center;
 	color: black;
 	background:lightblue;
+
 }
 img{
 	width:300px;
 }
 
-span{
-	background: lightblue;
-	margin: 100px 50px 100px 50px;
+span, span a{
+	background:olive;
 	font-size: 30px;
+	margin: 24px;
+	border-radius:4px;
+	color: black;
+	padding: 6px 6px;
 }
 section{
-	background:lightblue;
-}
+	background:lightblue;}
 
 footer{
-	background: lightblue
+	background:none; /*lightblue; */
 }
 a{
 	text-decoration:none;
+}
+span a:hover{
+	background:rgb(128,128,0,80%);
 }
 a:hover,header:hover,h1:hover{
 	color: lightyellow;
@@ -32,4 +40,30 @@ a:hover,header:hover,h1:hover{
 #Ana,#Dong,#Muna,#Jyoti{
 	background: lightyellow;
 
+}
+
+.content_wrap{
+	width:550px;
+	margin: 0 auto;
+	padding:60px;
+	
+}
+#menuList{
+	background:yellow;
+	padding: 12px;
+}
+#s1{
+	background:green;
+	margin-top:0;
+	margin-bottom:0;
+}
+#s2{
+	background:pink;
+		margin-top:0;
+	margin-bottom:0;
+}
+#s3{
+	background:blue;
+	margin-top:0;
+	margin-bottom:0;
 }
