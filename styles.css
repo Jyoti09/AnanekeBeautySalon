@@ -69,6 +69,8 @@ a:hover,h1:hover{
 #menuList{
 	background:yellow;
 	padding: 12px;
+	position:fixed;
+	top:0px;
 }
 #s1{
 	background:green;
@@ -85,6 +87,7 @@ a:hover,h1:hover{
 	margin-top:0;
 	margin-bottom:0;
 }
+
 #contact{
 	padding:10px;
 	}
