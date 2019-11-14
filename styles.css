@@ -97,7 +97,14 @@ a:hover,h1:hover{
 	margin-top:0;
 	margin-bottom:0;
 }
-#contact{
-	padding:10px;
+.contactList{
+	list-style-type:none;
+	display:flex;
+	justify-content:center;
 	}
-
+.contactList a{
+	padding:30px;
+	}
+#contact h1{
+	text-align:center;	
+}
