@@ -15,7 +15,6 @@ header div.content_wrap{
 	background-image:url("images/store.jpg");
 	width:600px;
 	height:465px;
-	margin:0 auto;
 }
 img{
 	width:200px;
@@ -45,7 +44,7 @@ a{
 span a:hover{
 	background:rgb(128,128,0,80%);
 }
-a:hover,h1:hover,h2:hover{
+a:hover,h1:hover,{
 	color: lightyellow;
 	}
 
@@ -55,15 +54,15 @@ a:hover,h1:hover,h2:hover{
 
 }
 
-.clear{
-	clear:both;
-}
 
 .content_wrap{
 	width:550px;
 	margin: 0 auto;
-	padding:60px;
+	padding:0;
 	
+}
+.clear{
+	clear:both;
 }
 #menuList{
 	background:yellow;
@@ -83,4 +82,10 @@ a:hover,h1:hover,h2:hover{
 	background:blue;
 	margin-top:0;
 	margin-bottom:0;
+}
+#contact{
+	padding:10px;
+	}
+div,h1{
+	margin:0;
 }
