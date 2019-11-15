@@ -108,3 +108,9 @@ a:hover,h1:hover{
 #contact h1{
 	text-align:center;	
 }
+
+.tech{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+
